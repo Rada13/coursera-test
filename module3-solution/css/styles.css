@@ -1,0 +1,55 @@
+#header-nav {
+	background-color: #989898;
+	border-radius: 0;
+	border: 2px solid black;
+}
+#nav-brand {
+	color: #000000;
+	font-size: 200%;
+}
+/*#main {
+	margin-left: 1vw;
+	margin-right: 1vw;
+}*/
+#main-content {
+	background-color: #989898;
+}
+#head {
+	padding-bottom: 7vh;
+	
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+
+#first {
+
+	border-bottom: 2px solid black;
+}
+#second {
+	border-bottom: 2px solid black;
+}
+
+
+#main {
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+}
+
+@media (min-width: 992px) {
+	#main { margin-left: 1vw;
+	margin-right: 1vw;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#main {	margin-left: 7vw;
+	margin-right: 7vw;
+}
+}
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #ffffff;
+		text-align: center;
+	    border-top: 2px solid black;
+}
